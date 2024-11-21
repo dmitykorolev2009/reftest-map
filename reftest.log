@@ -1,0 +1,197 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\gmod_maps\reftest.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\gmod_maps\reftest.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2843 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 6
+Reduced 5 texdatas to 4 (112 bytes to 89)
+Writing d:\gmod_maps\reftest.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\gmod_maps\reftest.bsp
+reading d:\gmod_maps\reftest.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing d:\gmod_maps\reftest.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'lights_d.rad']
+Warning: Redundant 'lights/fluorescentcool001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/fluorescentcool001b' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/fluorescentcool002a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/fluorescentcool002b' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/fluorescentcool003a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/fluorescentwarm001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/fluorescentwarm002a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/fluorescentwhite001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/fluorescentwhite002a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/hazzardred001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/hazzardyellow001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/HIDcool001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/HIDcool001b' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/HIDwarm001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white001' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white002' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white003' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white004' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white005' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white006' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Overriding 'lights/white001_nochop' from 'lights.rad' with 'lights_d.rad'!
+Warning: Redundant 'lights/white002_nochop' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white003_nochop' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white004_nochop' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white005_nochop' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/white006_nochop' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/incandescentcool001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/incandescentwarm001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'glass/glassscreen001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'glass/glasspipe001f' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'glass/glassscreen001c' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'glass/glassscreen001d' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'glass/glassblock001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'composite/citadelfloor001a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'props/tvscreen006a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'shadertest/gooinglass' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'glass/glasswindow002e' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'glass/glasswindow035a' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'dev/DEV_INTERIORLIGHT02B' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'plaster/plasterwall029h' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'building_template/Building_Trainstation_Template001d' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'building_template/Building_Trainstation_Template001e' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'building_template/Building_Trainstation_window002d' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'building_template/Building_Trainstation_window002e' def in 'lights.rad' AND 'lights_d.rad'!
+Warning: Redundant 'lights/physgunlight' def in 'lights.rad' AND 'lights_d.rad'!
+[50 texlights parsed from 'lights_d.rad']
+
+Loading d:\gmod_maps\reftest.bsp
+PREP OK
+33 faces
+11178 square feet [1609728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+33 patches before subdivision
+8543 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 982768, max 267
+transfer lists:   7.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45246, 13817, 1834)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(28713, 2747, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(18396, 548, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(11836, 109, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7627, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4920, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3175, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2049, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1323, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(854, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(552, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(356, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(230, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(148, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(96, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(62, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0011 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                  7/16384          84/196608   ( 0.0%) 
+brushsides              42/163840        336/1310720  ( 0.0%) 
+planes                  64/65536        1280/1310720  ( 0.1%) 
+vertexes                45/65536         540/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                 6/16384         432/1179648  ( 0.0%) 
+texdata                  4/8192          128/262144   ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   33/65536        1848/3670016  ( 0.1%) 
+hdr faces               33/65536        1848/3670016  ( 0.1%) 
+origfaces                7/65536         392/3670016  ( 0.0%) 
+leaves                  36/65536        1152/2097152  ( 0.1%) 
+leaffaces               33/65536          66/131072   ( 0.1%) 
+leafbrushes             17/65536          34/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              160/512000        640/2048000  ( 0.0%) 
+edges                   88/256000        352/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          1/8192           88/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      116788/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]         793/393216   ( 0.2%) 
+LDR ambient table       36/65536         144/262144   ( 0.1%) 
+HDR ambient table       36/65536         144/262144   ( 0.1%) 
+LDR leaf ambient        36/65536        1008/1835008  ( 0.1%) 
+HDR leaf ambient        97/65536        2716/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       24870/0        ( 0.0%) 
+physics               [variable]        2843/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 66
+Writing d:\gmod_maps\reftest.bsp
+0 seconds elapsed
